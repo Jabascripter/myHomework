@@ -1,0 +1,85 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+    
+}
+/* CONTEINER */
+.conteiner{
+    width: 100%;
+    max-width:900px;
+    margin: 0 auto;
+}
+/* HEADER */
+.header{
+    padding: 76px 160px 104px 160px;
+}
+/* NAV */
+.item_wrapper{
+    display: inline-block;
+    margin-right:125px;
+}
+.list{
+    text-align: center;
+    list-style: none;
+}
+.item{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif,Arial;
+
+}
+.item_wrapper:last-child{
+    margin-right: 0px;
+}
+.item:hover{
+    color:#03a9f4;
+    transition: 0.3s;
+}
+  /* MAIN SECTION */
+
+.section{
+    padding-bottom: 22px;
+}
+.social{
+    width: 420px;
+    display: inline-block;
+    margin-right: 56px;
+}
+.social:nth-child(2n){
+    margin-right: 0px;
+}
+.photo{
+    margin-bottom: 23px;
+}
+/* INFO */
+.title{
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif,Arial;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.subtitle{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.text{
+    margin-bottom: 140px;
+}
+/* Button */
+.btn-wrapper{
+    text-align: center;
+}
+.btn{
+    padding: 22px 40px;
+    font-size: 20px;
+    background-color: #fff;
+    border:1px solid #626262; 
+}
+.btn:hover{
+    background:#03a9f4;
+    color: white;
+    transition: 0.3s;
+    border: solid 1px #fff;
+}
