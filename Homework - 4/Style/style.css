@@ -124,6 +124,7 @@ body{
     margin-right: 30px;
     width: 350px;
     float: left;
+    margin-bottom: 82px;
 }
 .card:nth-child(3n){
     margin-right: 0px;
@@ -148,15 +149,15 @@ body{
 .text{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
-.more{
+.button{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 20px 40px;
     color: white;
     background: #1abc9c;
-    border: 0px;
     border-radius: 3px;
     font-size: 16px;
+    text-decoration: none;
 }
